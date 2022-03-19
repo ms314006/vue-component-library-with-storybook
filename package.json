@@ -1,7 +1,6 @@
 {
   "name": "test-text",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name test-text ./src/index.js",

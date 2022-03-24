@@ -15,6 +15,11 @@ npm run serve
 npm run build
 ```
 
+### Storybook
+```
+npm run storybook
+```
+
 ### Run your unit tests
 ```
 npm run test:unit

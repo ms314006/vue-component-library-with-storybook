@@ -1,7 +1,9 @@
 <template>
-  <p class="text">
-    <slot />
-  </p>
+  <el-card>
+    <p :class="$style.text">
+      <slot />
+    </p>
+  </el-card>
 </template>
 
 <script>
@@ -10,7 +12,8 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" src="../assets/scss/element-ui.scss"></style>
+<style module lang="scss">
 .text {
   color: #FFC0D3;
 }
